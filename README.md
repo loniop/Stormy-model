@@ -1,9 +1,5 @@
-# Model Viewer 3D on the Web
+# Stormy Model
 
-### Documentation : https://modelviewer.dev/docs/index.html
+this is where is will show my vrchat avatar model with animation
 
-### Model-Viewer's Github : https://github.com/google/model-viewer/
-
-</br>
->>>> Result : https://3d.haroldao.com
-
+for now it just has a test model
