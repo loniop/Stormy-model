@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width">
     <title>Stormy</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      fix {
+  position: fixed;
+  width: 50%;
+  bottom: 10px;
+  border: 3px solid #8AC007;
+} 
+    </style>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
   </head>
   <body>
     <model-viewer class="main__element" environment-image="it.hdr" src="assets/models/stormy.gltf" alt="3D Harold AO Logo" data-js-focus-visible="none" interaction-prompt="none"  camera-controls shadow-intensity="0" animation-name="animation" autoplay id="player"></model-viewer>
 
   
-    <P>© 2023 Storm Davis. All rights reserverd</P>
+    <P class="fix">© 2023 Storm Davis. All rights reserverd</P>
     <script src="script.js"></script>   
   </body>
 </html>
